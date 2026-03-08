@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vcf-variant-tools"
+version = "0.1.0"
+description = "Utilities for VCF variant normalization and transcript overlap detection"
+requires-python = ">=3.9"
+authors = [
+    {name = "Merve Görkem Durmaz", email = "m.gorkemdurmaz@gmail.com"},
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

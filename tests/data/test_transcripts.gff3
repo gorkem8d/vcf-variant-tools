@@ -1,0 +1,5 @@
+##gff-version 3
+chr1	ensembl	transcript	50	250	.	+	.	ID=ENST00000001;gene_name=GENE_A
+chr1	ensembl	transcript	350	550	.	-	.	ID=ENST00000002;gene_name=GENE_B
+chr1	ensembl	transcript	500	800	.	+	.	ID=ENST00000003;gene_name=GENE_C
+chr2	ensembl	transcript	100	300	.	+	.	ID=ENST00000004;gene_name=GENE_D
